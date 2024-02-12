@@ -1,6 +1,6 @@
 ﻿# Magellan Aerospace Software Team Hiring Assignment
 
-2. Create a PostgreSQL script that does the following 
+1. Create a PostgreSQL script that does the following 
     * Create a database called `Part`
     * Create a table named `item` in the `Part` database with the specification below
 
@@ -40,7 +40,7 @@
         ```
     * Save the script as this will be used in the next portion. 
 
-3. Clone the Visual Studio 2022 project called MagellanTest in the repository. The project will target .NET 6 and use the standard data provider (Npgsql) without Entity Framework. Here you will be creating a simple REST API to access the database created above. In the `ItemsController.cs` of the project, create the API endpoints that lets users do the following tasks.
+2. Clone the Visual Studio 2022 project called MagellanTest in the repository. The project will target .NET 6 and use the standard data provider (Npgsql) without Entity Framework. Here you will be creating a simple REST API to access the database created above. In the `ItemsController.cs` of the project, create the API endpoints that lets users do the following tasks.
     * Create a new record in the `item` table. User will supply the values for `item_name`, `parent_item`, `cost`, and `req_date` in json. The endpoint will return the `id` of the newly created record.
     * Query the `item` table by supplying the `id` of the record. The endpoint will return the `id`, `item_name`, `parent_item`, `cost`, and `req_date` in json if record exists.
     * Create an endpoint that calls the `Get_Total_Cost` function in previous step. User will supply the `item_name` for the function. The endpoint will return the value returned by the function. 
