@@ -45,5 +45,4 @@
     * Query the `item` table by supplying the `id` of the record. The endpoint will return the `id`, `item_name`, `parent_item`, `cost`, and `req_date` in json if record exists.
     * Create an endpoint that calls the `Get_Total_Cost` function in previous step. User will supply the `item_name` for the function. The endpoint will return the value returned by the function. 
 
-4. Place the script created in part 1 in the PostgreSqlScript folder of the project. Put the project in your GitHub repository. Send the repository link to Gregory.Schmidt@magellan.aero titled LastName_FirstName_Magellan_software_team_test.  
-If you have already submited your resume with your GitHub page we will associate the link with your resume. Otherwise please attach resume with your email.
+3. Place the script created in part 1 in the PostgreSqlScript folder of the project. Put the project in your GitHub repository. If you applied to this role through Indeed, you can respond to the original message with the link to your project repository. Otherwise, send the repository link to Gregory.Schmidt@magellan.aero titled LastName_FirstName_Magellan_software_team_test. 
