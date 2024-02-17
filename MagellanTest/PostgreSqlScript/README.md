@@ -1,1 +1,9 @@
-Put the PostgreSQL script of Part 1 here.
+CREATE DATABASE Part;
+
+CREATE TABLE Item (
+Id integer PRIMARY KEY,
+Item_Name VARCHAR(50) NOT NULL,
+Parent_Item INTEGER NOT NULL CONSTRAINT REFERENCES Item (Parent_Item),
+Cost INTEGER NOT NULL,
+Req_Date DATE NOT NULL,
+);
